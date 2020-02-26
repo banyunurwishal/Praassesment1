@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Praass</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="hitung">Hitung</string>
+    <string name="luasP">Luas =</string>
+    <string name="kelilingP">Keliling =</string>
+    <string name="shareP">Share</string>
+    <string name="about">About</string>
+    <string name="nama_about">Banyu Nurwishal</string>
+    <string name="nim_about">6706184075</string>
+    <string name="kelas_about">D3IF4203</string>
+    <string name="hitungS">Hitung</string>
+    <string name="shareS">Share</string>
+    <string name="luasS">Luas =</string>
+    <string name="kelilingS">Keliling =</string>
+    <string name="tinggiS">Tinggi</string>
+    <string name="alasS">Alas</string>
+</resources>
