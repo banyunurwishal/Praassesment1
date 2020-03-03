@@ -21,4 +21,5 @@
     <string name="kelilingS">Keliling =</string>
     <string name="tinggiS">Tinggi</string>
     <string name="alasS">Alas</string>
+    <string name="shareText">hasil luas = %1$s , hasil keliling = %2$s</string>
 </resources>

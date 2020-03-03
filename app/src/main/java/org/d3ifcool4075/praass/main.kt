@@ -2,12 +2,11 @@ package org.d3ifcool4075.praass
 
 
 import android.os.Bundle
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import org.d3ifcool4075.praass.databinding.FragmentMainBinding
 
 
@@ -34,8 +33,16 @@ class main : Fragment() {
         binding.segitiga.setOnClickListener {
             it.findNavController().navigate(R.id.action_main_to_segitiga2)
         }
+        setHasOptionsMenu(true)
         return binding.root
     }
 
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+        inflater?.inflate(R.menu.overflow_menu,menu)
+    }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return NavigationUI.onNavDestinationSelected(item!!,view!!.findNavController()) || super.onOptionsItemSelected(item)
+    }
 }
